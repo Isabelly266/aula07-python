@@ -1,0 +1,6 @@
+saldo = float(input("Digite seu saldo:"))
+valor_da_compra = float(input("Digite o valor da sua compra:"))
+if saldo >= valor_da_compra:
+    print("Compra aprovada")
+else:
+    print("Saldo insuficiente")

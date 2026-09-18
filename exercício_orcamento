@@ -1,0 +1,6 @@
+orcamento = float(input("Digite o valor do seu orcamento:"))
+gasto = float(input("Digite seu gasto:"))
+if orcamento >= gasto:
+    print("Dentro do limite do orcamento")
+else:
+    print("Acima do limite do orcamento")

@@ -1,0 +1,5 @@
+valor_da_compra = float(input("Valor da compra:"))
+if valor_da_compra >= 200:
+    print("Desconto aplicado de 10%")
+else:
+    print("Sem desconto")

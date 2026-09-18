@@ -1,0 +1,7 @@
+media = float(input("Digite a media:"))
+if media >= 6:
+    print("Aprovado")
+elif media >= 5:
+    print("Recuperacao")
+else:
+    print("Reprovado")

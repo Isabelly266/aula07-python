@@ -1,0 +1,6 @@
+media = float(input("Digite a media:"))
+frequencia = float(input("Qual é a frequencia?:"))
+if media >= 6 and frequencia >= 80:
+    print("Aprovado")
+else:
+    print("Reprovado")
